@@ -65,11 +65,11 @@ export default () => {
                 </button>
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <button onClick={loginDirect}>
                 <i className="fa fa-user" /> Login{" "}
               </button>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
