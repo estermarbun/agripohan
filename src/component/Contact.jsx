@@ -58,12 +58,24 @@ export default () => {
             </div>
             <div className="col-md-6">
               <div className="form-group form-group-textarea mb-md-0">
+              <div className="form-group">
+                <input
+                  className="form-control"
+                  id="name"
+                  type="text"
+                  placeholder="Your Product *"
+                  required="required"
+                  data-validation-required-message="Please enter your product."
+                />
+                <p className="help-block text-danger"></p>
+              </div>
                 <textarea
                   className="form-control"
                   id="message"
                   placeholder="Your Message *"
                   required="required"
                   data-validation-required-message="Please enter a message."
+                  style={{height: "10px"}}
                 ></textarea>
                 <p className="help-block text-danger"></p>
               </div>
