@@ -20,9 +20,9 @@ export default () => {
           className="section-heading text-uppercase"
           style={{ color: "#008000" }}
         >
-          EDIT DATA INVESTOR
+          EDIT DATA PETANI
         </h3>
-        <p>Daftar Investor di PT. Pohan Agriculture</p>
+        <p>Daftar Petani di PT. Pohan Agriculture</p>
         <form id="form-group" name="sentMessage" noValidate="novalidate">
           <div className="row align-items-stretch mb-5">
             <div
@@ -30,7 +30,7 @@ export default () => {
               style={{ textAlign: "left", marginTop: "10px" }}
             >
               <div className="form-group">
-                <label className="greenBoldText">Investor Name</label>
+                <label className="greenBoldText">Petani Name</label>
                 <input
                   className="form-control"
                   id="name"
@@ -42,7 +42,7 @@ export default () => {
                 <p className="help-block text-danger"></p>
               </div>
               <div className="form-group mb-md-0">
-                <label className="greenBoldText">Investor Phone</label>
+                <label className="greenBoldText">Petani Phone</label>
                 <input
                   className="form-control"
                   id="phone"
@@ -54,7 +54,7 @@ export default () => {
                 <p className="help-block text-danger"></p>
               </div>
               <div className="form-group mb-md-0">
-                <label className="greenBoldText">Investor Address</label>
+                <label className="greenBoldText">Petani Address</label>
                 <textarea
                   className="form-control"
                   id="message"
@@ -68,7 +68,7 @@ export default () => {
             </div>
           </div>
           <div style={{ textAlign: "left" }}>
-            <Link to="/investordetail">
+            <Link to="/petanidetail">
               <button
                 className="btn btn-header backButton"
                 id="sendMessageButton"
@@ -77,7 +77,7 @@ export default () => {
                 Back
               </button>
             </Link>
-            <Link to="/investor">
+            <Link to="/petani">
               <button
                 className="btn btn-header editButton"
                 id="sendMessageButton"
