@@ -1803,14 +1803,17 @@ pre code {
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid #008000;
 }
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6;
+  border-bottom: 2px solid #008000;
+  color: #fff;
+  background-color: #97e300;
+  border-bottom-color: #008000;
 }
 .table tbody + tbody {
-  border-top: 2px solid #dee2e6;
+  border-top: 2px solid #008000;
 }
 
 .table-sm th,
@@ -1819,11 +1822,11 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #dee2e6;
+  border: 1px solid #008000;
 }
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #dee2e6;
+  border: 1px solid #008000;
 }
 .table-bordered thead th,
 .table-bordered thead td {
@@ -10999,8 +11002,29 @@ section#contact form#contactForm :-ms-input-placeholder {
 .darkGreenText {
   color: #008000;
 }
+.greenBoldText {
+  color: #008000;
+  font-weight: bold;
+}
 .greenBorder {
   color: #fff;
   text-shadow: -1px -1px 0 #008000, 1px -1px 0 #008000, -1px 1px 0 #008000,
     1px 1px 0 #008000;
+}
+.imgButton {
+  background-color: transparent;
+  border-color: transparent;
+}
+.backButton {
+  background-color: #008000;
+  text-align: center;
+  height: 40px;
+  padding: 0px;
+}
+.editButton {
+  background-color: #e6b301;
+  text-align: center;
+  height: 40px;
+  padding: 0px;
+  margin-left: 10px;
 }

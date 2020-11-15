@@ -8,6 +8,8 @@ import Anggota from "../component/Anggota"
 import Petani from "../component/Petani"
 import Keuangan from "../component/Keuangan"
 import Navigation from "../component/AdminNav.jsx";
+import InvestorDetail from '../component/InvestorDetail';
+import InvestorEdit from '../component/InvestorEdit';
 
 class Admin extends Component {
     render() {
@@ -16,17 +18,17 @@ class Admin extends Component {
                 <div className="App">
                     {" "}
                     {/* <!-- Navigation--> */}
-                    {/* <Navigation />      
-                     */}
-                    <div>
-                        <Switch>                        
+                    <Navigation />      
+                    <Switch>                        
                         <Route path="/admin" render={() => <Home/>}/>             
                         <Route path="/anggota"  render={() => <Anggota/>}/>
                         <Route path="/investor"  render={() => <Investor/>}/>
                         <Route path="/petani"  render={() => <Petani/>}/>
                         <Route path="/keuangan"  render={() => <Keuangan/>}/>
+                        <Route path="/investordetail" render={() => <InvestorDetail/>}/>
+                        <Route path="/investoredit" render={() => <InvestorEdit/>}/>
+                       
                    </Switch>
-                   </div>
                     
                     {/* <!-- Footer--> */}
                     <Footer />
@@ -39,7 +41,6 @@ class Admin extends Component {
 const Home = () => (
     <div>
         <h2>Admin Page</h2>
-        <Navigation /> 
     </div>
 )
  

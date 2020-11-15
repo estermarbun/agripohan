@@ -10,7 +10,8 @@ export default () => {
         
     ]
     return (
-        <div className="container">
+        
+        <div className="container" style={{marginTop: "10%"}}>
             <div>
             <h2
             className="section-heading text-uppercase"
@@ -19,8 +20,8 @@ export default () => {
             DATA INVESTOR PT. POHAN
           </h2>
 
-          <table>
-              <thead>
+          <table className="table">
+              <thead  style={{borderTop: "5px solid red", background: "yellow"}}>
                   <tr>
                     <th>NO.</th>
                     <th>Investor Name</th>

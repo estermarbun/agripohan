@@ -1,7 +1,5 @@
 import React from "react";
 
-import Navigation from "../component/AdminNav.jsx";
-
 export default () => {
     const dataTable = [
         {id: 1, nama: "Rendy Simarmata", phone: "082294696947"},
@@ -12,10 +10,8 @@ export default () => {
         
     ]
     return (
-        <div>
-        {/* <Navigation />       */}
-                    
-        <div className="container">
+        
+        <div className="container" style={{marginTop: "10%"}}>
             <div>
             <h2
             className="section-heading text-uppercase"
@@ -46,7 +42,6 @@ export default () => {
               </tbody>
           </table>
             </div>
-        </div>
         </div>
     );
 }
